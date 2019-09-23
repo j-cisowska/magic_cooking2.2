@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		953321EC23002DE1003631D9 /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953321EB23002DE1003631D9 /* Ingredients.swift */; };
 		A1BC120D2286CFCC00B871A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BC120C2286CFCC00B871A8 /* AppDelegate.swift */; };
 		A1BC120F2286CFCC00B871A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BC120E2286CFCC00B871A8 /* ViewController.swift */; };
 		A1BC12122286CFCC00B871A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BC12102286CFCC00B871A8 /* Main.storyboard */; };
 		A1BC12142286CFCE00B871A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BC12132286CFCE00B871A8 /* Assets.xcassets */; };
 		A1BC12172286CFCE00B871A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BC12152286CFCE00B871A8 /* LaunchScreen.storyboard */; };
+		A1BC121F2286DC3900B871A8 /* IngredientsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BC121E2286DC3900B871A8 /* IngredientsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		953321EB23002DE1003631D9 /* Ingredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = SOURCE_ROOT; };
 		A1BC12092286CFCC00B871A8 /* magic cooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "magic cooking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BC120C2286CFCC00B871A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1BC120E2286CFCC00B871A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		A1BC12132286CFCE00B871A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1BC12162286CFCE00B871A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1BC12182286CFCE00B871A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BC121E2286DC3900B871A8 /* IngredientsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 			children = (
 				A1BC120C2286CFCC00B871A8 /* AppDelegate.swift */,
 				A1BC120E2286CFCC00B871A8 /* ViewController.swift */,
+				A1BC121E2286DC3900B871A8 /* IngredientsCell.swift */,
+				953321EB23002DE1003631D9 /* Ingredients.swift */,
 				A1BC12102286CFCC00B871A8 /* Main.storyboard */,
-				A1BC12132286CFCE00B871A8 /* Assets.xcassets */,
 				A1BC12152286CFCE00B871A8 /* LaunchScreen.storyboard */,
+				A1BC12132286CFCE00B871A8 /* Assets.xcassets */,
 				A1BC12182286CFCE00B871A8 /* Info.plist */,
 			);
 			path = "magic cooking";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				953321EC23002DE1003631D9 /* Ingredients.swift in Sources */,
+				A1BC121F2286DC3900B871A8 /* IngredientsCell.swift in Sources */,
 				A1BC120F2286CFCC00B871A8 /* ViewController.swift in Sources */,
 				A1BC120D2286CFCC00B871A8 /* AppDelegate.swift in Sources */,
 			);
